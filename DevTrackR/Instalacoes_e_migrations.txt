@@ -1,0 +1,23 @@
+Pacotes para projeto de API com o uso do Entity Framework CORE
+
+install-package Microsoft.EntityFramework.SqlServer
+
+install-package Microsoft.EntityFramework.Core
+
+install-package Microsoft.EntityFrameworkCoreDesign
+
+install-package Microsoft.EntityFrameworkCore.InMemory
+
+install-package Microsoft.EntityFrameworkCore.Tools
+
+-----
+
+Migrations
+
+Criando o modelo de dados via EF.
+
+add-migration InitialMigration -o Persistence/Migrations   // O -o diz que voce quer instalar em uma pasta especifica colocando o caminho
+
+Depois vamos Criar o banco
+
+update-database
